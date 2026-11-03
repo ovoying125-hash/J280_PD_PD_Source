@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+  <Template>FPGA</Template>
+  <Version>5</Version>
+  <Device name="GW2A-55C" pn="GW2A-LV55PG484C8/I7">gw2a55c-005</Device>
+  <FileList>
+    <File path="src/adc_3pa1030.v" type="file.verilog" enable="1" />
+    <File path="src/angle_filter.v" type="file.verilog" enable="1" />
+    <File path="src/angle_pd.v" type="file.verilog" enable="1" />
+    <File path="src/board_input_panel.v" type="file.verilog" enable="1" />
+    <File path="src/board_target_control.v" type="file.verilog" enable="1" />
+    <File path="src/j280_board_top.v" type="file.verilog" enable="1" />
+    <File path="src/pendulum_core.v" type="file.verilog" enable="1" />
+    <File path="src/position_pd_native.v" type="file.verilog" enable="1" />
+    <File path="src/quadrature_decoder.v" type="file.verilog" enable="1" />
+    <File path="src/swing_three_pulse.v" type="file.verilog" enable="1" />
+    <File path="src/tb6612_pwm.v" type="file.verilog" enable="1" />
+    <File path="src/uart_packet_tx.v" type="file.verilog" enable="1" />
+    <File path="src/uart_tx.v" type="file.verilog" enable="1" />
+    <File path="src/j280_pendulum.cst" type="file.cst" enable="1" />
+    <File path="src/j280_pendulum.sdc" type="file.sdc" enable="1" />
+  </FileList>
+</Project>

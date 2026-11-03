@@ -1,0 +1,20 @@
+# 实现结果、波形、解释器缓存和本地环境不纳入版本管理。
+impl/
+build/
+__pycache__/
+*.pyc
+*.vvp
+*.vcd
+*.fs
+*.bin
+*.binx
+*.log
+*.bak
+*.user
+.venv/
+
+# 本地凭据与私有环境配置。
+.env
+.env.*
+*.pem
+*.key
